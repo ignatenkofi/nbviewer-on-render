@@ -11,7 +11,7 @@ WORKDIR /app
 
 # ставим свежий nbviewer напрямую из GitHub (в master уже фиксы с html.escape)
 # при желании потом можно зафиксировать SHA: @<commit_sha>
-RUN pip install --no-cache-dir "git+https://github.com/jupyter/nbviewer.git@master"
+RUN pip install --no-cache-dir "git+https://github.com/jupyter/nbviewer.git@main"
 
 EXPOSE 8080
 
